@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
+  "licences": "MIT",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,16 +12,21 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.6.2",
-    "@strapi/plugin-users-permissions": "4.6.2",
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
+    "@strapi/plugin-color-picker": "^4.6.2",
     "@strapi/plugin-i18n": "4.6.2",
-    "better-sqlite3": "8.0.1"
+    "@strapi/plugin-users-permissions": "4.6.2",
+    "@strapi/strapi": "4.6.2",
+    "pg": "8.8.0",
+    "strapi-plugin-populate-deep": "^2.0.0",
+    "strapi-plugin-transformer": "^3.0.0",
+    "strapi-provider-upload-supabase": "^1.0.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "6a397eee-9906-4383-9f54-1cbb9e05c7b6"
+    "uuid": "2d6fa5fb-b105-4aaa-b5ba-1e22b6b1ad6a"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",

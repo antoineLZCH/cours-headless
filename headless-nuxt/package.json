@@ -8,6 +8,10 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-27954023.4cee565",
+    "@nuxtjs/strapi": "^1.8.1",
+    "@types/node": "^18.14.1",
+    "markdown-it": "^13.0.1",
     "nuxt": "^3.2.2"
   }
 }
